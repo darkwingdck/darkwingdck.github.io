@@ -1,0 +1,35 @@
+.card {
+  font-weight: bold;
+  font-size: var(--font-size-s);
+  border: var(--border-width-m) solid var(--color-black);
+  min-width: 250px;
+  padding: 50px 0px 20px 40px;
+  position: relative;
+  margin-right: 50px;
+  box-shadow: var(--shadow-tilt-m) var(--shadow-tilt-m) 0 0 var(--color-black);
+}
+
+.card__label {
+  border: var(--border-width-m) solid var(--color-black);
+  padding: 10px 20px;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  background-color: var(--color-white);
+}
+
+.card_color-primary {
+  background-color: var(--color-primary);
+}
+
+.card_color-secondary {
+  background-color: var(--color-secondary);
+}
+
+.card_color-accent {
+  background-color: var(--color-accent);
+}
+
+.card_color-accent-variant {
+  background-color: var(--color-accent-variant);
+}

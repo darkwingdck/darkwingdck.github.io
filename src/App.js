@@ -4,6 +4,7 @@ import AboutMe from './components/AboutMe/AboutMe';
 import JobExperience from './components/JobExperience/JobExperience';
 import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
+import Content from './components/Ui/Content/Content';
 import './App.css';
 
 function App() {
@@ -11,9 +12,11 @@ function App() {
     <div className="app">
       <Header />
       <Hero />
-      <AboutMe />
-      <JobExperience />
-      <Projects />
+      <Content>
+        <AboutMe />
+        <JobExperience />
+        <Projects />
+      </Content>
       <Footer />
     </div>
   );

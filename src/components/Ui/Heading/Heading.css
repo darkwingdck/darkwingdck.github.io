@@ -1,6 +1,5 @@
 .heading {
-  margin: auto;
-  margin-top: 200px;
+  margin: 200px auto 90px;
   text-align: center;
   display: flex;
   justify-content: center;
