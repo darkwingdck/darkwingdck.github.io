@@ -7,7 +7,7 @@ import Text from '../Ui/Text/Text';
 export default function JobExperience() {
   const jobsList = content.jobs.map((job) => {
     return (
-      <div className="job">
+      <div key={job.id} className="job">
         <Card item={job} />
         <Text text={job.description} />
       </div>
