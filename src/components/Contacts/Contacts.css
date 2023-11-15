@@ -1,0 +1,11 @@
+.contacts {
+  display: flex;
+}
+
+.contacts_direction-column {
+  flex-direction: column;
+}
+
+.contacts_direction-row {
+  flex-direction: row;
+}

@@ -7,10 +7,11 @@
   background-color: var(--color-white);
   box-shadow: var(--shadow-tilt-m) var(--shadow-tilt-m) 0 0 var(--color-black);  
   transition: all 0.1s ease;
+  margin: 10px;
 }
 
 .icon-link:hover {
-  box-shadow: none;  
+  box-shadow: none;
   transform: translate(2px, 2px);
 }
 

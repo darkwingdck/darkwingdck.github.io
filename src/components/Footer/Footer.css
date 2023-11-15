@@ -1,0 +1,13 @@
+.footer-container {
+  background-color: var(--color-primary);
+  padding: 50px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__text {
+  margin-right: 90px;
+}
