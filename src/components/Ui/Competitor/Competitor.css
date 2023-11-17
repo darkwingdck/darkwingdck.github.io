@@ -1,0 +1,44 @@
+.competitor {
+  padding: 20px;
+  border: var(--border-width-m) solid var(--color-secondary);
+  box-shadow: var(--shadow-tilt-l) var(--shadow-tilt-l) 0 0 var(--color-black);
+}
+
+.competitor__head {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.competitor__icon {
+  width: 30px;
+  height: 30px;
+  background-image: url('../../../assets/star.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-right: 10px;
+}
+
+.competitor-heading__title {
+  font-size: var(--font-size-m);
+  margin-bottom: 10px;
+}
+
+.competitor-heading__subtitle {
+  font-size: var(--font-size-s);
+}
+
+.competitor__item {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.competitor__item::before {
+  content: ' ';
+  display: inline-block;
+  margin-right: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: var(--color-secondary);
+}
