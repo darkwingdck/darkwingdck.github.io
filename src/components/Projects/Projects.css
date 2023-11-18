@@ -1,7 +1,21 @@
 .projects {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 40px;
+  gap: 30px;
   margin-bottom: 90px;
+}
+
+@media screen and (min-width: 600px) {
+  .projects  {
+    display: grid;
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .projects  {
+    gap: 40px;
+  }
 }

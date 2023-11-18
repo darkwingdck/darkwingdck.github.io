@@ -12,14 +12,16 @@
 
   --border-width: 1px;
 
-  --shadow-tilt-s: 4px;
-  --shadow-tilt-m: 8px;
+  --shadow-tilt-s: 2px;
+  --shadow-tilt-m: 4px;
   --shadow-tilt-l: 10px;
 }
 
 @media screen and (min-width: 426px) {
   :root {
     --border-width: 2px;
+    --shadow-tilt-s: 4px;
+    --shadow-tilt-m: 8px;
   }
 }
 
