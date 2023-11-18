@@ -6,7 +6,6 @@
   height: 600px;
   background-color: var(--color-white);
   box-shadow: var(--shadow-tilt-xxl) var(--shadow-tilt-xxl) 0 0 var(--color-black);
-  animation: slide-up-fade-in 1s ease;
 }
 
 .block {
