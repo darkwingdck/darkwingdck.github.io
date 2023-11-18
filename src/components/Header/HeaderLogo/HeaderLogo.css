@@ -1,0 +1,4 @@
+.header-logo {
+  padding: 15px 20px;
+  border-right: var(--border-width-m) solid var(--color-black);
+}

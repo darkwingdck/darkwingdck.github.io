@@ -1,0 +1,14 @@
+.header-nav {
+  display: flex;
+}
+
+.header-nav__item {
+  padding: 15px 20px;
+  border-left: var(--border-width-m) solid var(--color-black);
+  transition: ease all 0.1s;
+  cursor: pointer;
+}
+
+.header-nav__item:hover {
+  background-color: var(--color-primary);
+}

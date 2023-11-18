@@ -1,9 +1,13 @@
 import './Header.css';
+import HeaderLogo from './HeaderLogo/HeaderLogo';
+import HeaderNav from './HeaderNav/HeaderNav';
+
 
 export default function Header() {
   return (
-    <div className="header">
-      <h1>Header</h1>
-    </div>
+    <header className="header">
+      <HeaderLogo />
+      <HeaderNav />
+    </header>
   );
-}
+};

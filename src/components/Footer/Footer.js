@@ -7,7 +7,7 @@ import Contacts from '../Contacts/Contacts';
 
 export default function Footer() {
   return (
-    <div className="footer-container">
+    <footer className="footer-container">
       <Content>
         <div className="footer">
           <div className="footer__text">
@@ -18,6 +18,6 @@ export default function Footer() {
           </div>
         </div>
       </Content>
-    </div>
+    </footer>
   );
 }
