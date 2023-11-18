@@ -2,7 +2,7 @@ import './HeroPresenter.css';
 
 export default function HeroPresenter() {
   return (
-    <div className="hero-presenter animated">
+    <div className="hero-presenter">
       <div className="block">
         <div className="block-inner block-inner_color-secondary block-inner_shape-quarter-bottom-right" />
       </div>

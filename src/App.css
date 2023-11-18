@@ -12,13 +12,9 @@
 
   --border-width: 1px;
 
-  --shadow-tilt-s: 2px;
-  --shadow-tilt-m: 4px;
-  --shadow-tilt-l: 8px;
-  --shadow-tilt-xl: 16px;
-  --shadow-tilt-xxl: 20px;
-
-  --width-tablet: 768px;
+  --shadow-tilt-s: 4px;
+  --shadow-tilt-m: 8px;
+  --shadow-tilt-l: 20px;
 }
 
 @media screen and (min-width: 426px) {
@@ -60,8 +56,4 @@
   100% {
     transform: rotateY(360deg);
   }
-}
-
-.animated {
-  animation: slide-up-fade-in 1s ease;
 }

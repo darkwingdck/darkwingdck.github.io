@@ -12,6 +12,7 @@
 
 .hero-text {
   font-size: var(--font-size-l);
+  animation: slide-up-fade-in 1s ease;
 }
 
 .hero-text__title {

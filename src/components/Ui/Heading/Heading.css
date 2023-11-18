@@ -9,7 +9,7 @@
   padding: 20px 40px;
   border: var(--border-width) solid var(--color-black);
   max-width: 450px;
-  box-shadow: var(--shadow-tilt-l) var(--shadow-tilt-l) 0 0 var(--color-black);
+  box-shadow: var(--shadow-tilt-m) var(--shadow-tilt-m) 0 0 var(--color-black);
 }
 
 .heading__lead {

@@ -5,7 +5,7 @@
   padding: 50px 0px 20px 40px;
   position: relative;
   margin-right: 50px;
-  box-shadow: var(--shadow-tilt-m) var(--shadow-tilt-m) 0 0 var(--color-black);
+  box-shadow: var(--shadow-tilt-s) var(--shadow-tilt-s) 0 0 var(--color-black);
 }
 
 .card__label {

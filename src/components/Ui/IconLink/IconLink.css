@@ -5,7 +5,7 @@
   padding: 4px;
   border: var(--border-width) solid var(--color-black);
   background-color: var(--color-white);
-  box-shadow: var(--shadow-tilt-m) var(--shadow-tilt-m) 0 0 var(--color-black);  
+  box-shadow: var(--shadow-tilt-s) var(--shadow-tilt-s) 0 0 var(--color-black);  
   transition: all 0.1s ease;
   margin: 10px;
 }
