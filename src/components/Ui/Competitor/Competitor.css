@@ -24,10 +24,6 @@
   margin-bottom: 10px;
 }
 
-.competitor-heading__subtitle {
-  font-size: var(--font-size-s);
-}
-
 .competitor__item {
   margin-bottom: 20px;
   display: flex;

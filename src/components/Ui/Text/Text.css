@@ -1,5 +1,4 @@
 .text {
-  font-size: var(--font-size-s);
   line-height: 40px;
   text-align: justify;
 }

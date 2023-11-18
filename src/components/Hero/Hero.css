@@ -11,7 +11,7 @@
 }
 
 .hero-text {
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-l);
 }
 
 .hero-text__title {

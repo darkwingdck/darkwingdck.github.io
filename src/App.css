@@ -1,10 +1,7 @@
 :root {
-  --font-size-xs: 14px;
   --font-size-s: 16px;
   --font-size-m: 24px;
-  --font-size-l: 26px;
-  --font-size-xl: 60px;
-  --font-size-xxl: 80px;
+  --font-size-l: 80px;
 
   --color-primary: #7FBC8C;
   --color-secondary: #FFC700;
