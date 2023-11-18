@@ -10,7 +10,7 @@ export default function AboutMe() {
       <Heading title="About me" />
       <div className="about-me__content">
         <Text text={content.text} />
-        <Contacts direction="column" />
+        <Contacts direction={ window.innerWidth > 768 ? 'column' : 'row' } />
       </div>
     </div>
   );
