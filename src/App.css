@@ -1,7 +1,7 @@
 :root {
-  --font-size-s: 16px;
-  --font-size-m: 24px;
-  --font-size-l: 80px;
+  --font-size-s: 14px;
+  --font-size-m: 20px;
+  --font-size-l: 30px;
 
   --color-primary: #7FBC8C;
   --color-secondary: #FFC700;
@@ -14,12 +14,39 @@
 
   --shadow-tilt-s: 4px;
   --shadow-tilt-m: 8px;
-  --shadow-tilt-l: 20px;
+  --shadow-tilt-l: 10px;
 }
 
 @media screen and (min-width: 426px) {
   :root {
     --border-width: 2px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  :root {
+    --font-size-s: 16px;
+    --font-size-m: 24px;
+    --font-size-l: 40px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  :root {
+    --font-size-l: 50px;
+    --shadow-tilt-l: 20px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  :root {
+    --font-size-l: 60px;
+  }
+}
+
+@media screen and (min-width: 1630px) {
+  :root {
+    --font-size-l: 80px;
   }
 }
 

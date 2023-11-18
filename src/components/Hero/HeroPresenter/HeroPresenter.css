@@ -2,11 +2,53 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr) 0fr;
   grid-template-rows: repeat(4, 1fr) 0fr;
-  width: 600px;
-  height: 600px;
+  width: 200px;
+  height: 200px;
   background-color: var(--color-white);
   box-shadow: var(--shadow-tilt-l) var(--shadow-tilt-l) 0 0 var(--color-black);
   animation: slide-up-fade-in 1s ease;
+}
+
+@media screen and (min-width: 376px) {
+  .hero-presenter {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 426px) {
+  .hero-presenter {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .hero-presenter {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  .hero-presenter {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .hero-presenter {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .hero-presenter {
+    width: 600px;
+    height: 600px;
+  }
 }
 
 .block {
