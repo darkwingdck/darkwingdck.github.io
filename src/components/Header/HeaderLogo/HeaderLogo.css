@@ -1,4 +1,11 @@
 .header-logo {
   padding: 15px 20px;
   border-right: var(--border-width-m) solid var(--color-black);
+  transition: background-color 0.1s ease;
+  cursor: pointer;
+}
+
+.header-logo:hover {
+  color: var(--color-primary);
+  background-color: var(--color-black);
 }
