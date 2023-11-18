@@ -2,11 +2,12 @@
   background-color: var(--color-primary);
   padding: 100px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .hero-text {
   font-size: var(--font-size-xxl);
-  margin-right: 40px;
 }
 
 .hero-text__title {

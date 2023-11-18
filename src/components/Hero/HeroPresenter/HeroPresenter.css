@@ -1,0 +1,135 @@
+.hero-presenter {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 0fr;
+  grid-template-rows: repeat(4, 1fr) 0fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 600px;
+  height: 600px;
+  background-color: var(--color-white);
+  box-shadow: var(--shadow-tilt-xxl) var(--shadow-tilt-xxl) 0 0 var(--color-black);
+}
+
+.block {
+  background-color: var(--color-white);
+}
+
+.block-inner {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-secondary);
+  transition: transform 0.5s ease;
+}
+
+.hero-presenter__image {
+  background-image: url(/src/assets/me.jpg);
+  background-size: contain;
+}
+
+/* COLORS */
+
+.block-inner_color-primary {
+  background-color: var(--color-primary); 
+}
+
+.block-inner_color-secondary {
+  background-color: var(--color-secondary); 
+}
+
+.block-inner_color-accent {
+  background-color: var(--color-accent); 
+}
+
+.block-inner_color-accent-variant {
+  background-color: var(--color-accent-variant); 
+}
+
+/* SHAPES */
+
+.block-inner_shape-circle {
+  clip-path: circle(50%);
+}
+
+.block-inner_shape-quarter-top-left {
+  clip-path: circle(100% at top left);
+}
+
+.block-inner_shape-quarter-top-right {
+  clip-path: circle(100% at top right);
+}
+
+.block-inner_shape-quarter-bottom-right {
+  clip-path: circle(100% at bottom right);
+}
+
+.block-inner_shape-quarter-bottom-left {
+  clip-path: circle(100% at top left);
+}
+
+/* ANIMATIONS */
+
+.block:nth-of-type(even):hover .block-inner {
+  transform: rotateY(180deg);
+}
+
+.block:nth-of-type(odd):hover .block-inner {
+  transform: rotateX(180deg);
+}
+
+/* GRIDS */
+
+.block_1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.block_1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.block_2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.block_3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.block_4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+
+.block_5 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.block_6 {
+  grid-area: 2 / 4 / 3 / 5;
+}
+
+.block_7 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.block_8 {
+  grid-area: 3 / 4 / 4 / 5;
+}
+
+.block_9 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.block_10 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.block_11 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+
+.block_12 {
+  grid-area: 4 / 4 / 5 / 5;
+}
+
+.hero-presenter__image {
+  grid-area: 2 / 2 / 4 / 4;
+}
