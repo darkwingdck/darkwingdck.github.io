@@ -1,14 +1,71 @@
 .header-nav {
   display: flex;
+  position: fixed;
+  right: 0;
+  top: 62px;
+  flex-direction: column;
+  clip-path: polygon(0 0, 100% 0, 100% 0%, 0 0%);
+  transition: clip-path ease 300ms;
+}
+
+@media screen and (min-width: 800px) {
+  .header-nav {
+    position: relative;
+    flex-direction: row;
+    clip-path: none;
+    top: 0;
+  }
+}
+
+.header-nav_opened {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
 .header-nav__item {
-  padding: 15px 20px;
-  border-left: var(--border-width-m) solid var(--color-black);
-  transition: ease all 0.1s;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  transition: ease all 0.1s;
+  border-left: var(--border-width-m) solid var(--color-black);
+  background-color: var(--color-primary);
+}
+
+
+.header-nav__item:last-child {
+  border-bottom: var(--border-width-m) solid var(--color-black);
+}
+
+@media screen and (min-width: 800px) {
+  .header-nav__item:last-child {
+    border-bottom: none;
+  }
 }
 
 .header-nav__item:hover {
-  background-color: var(--color-primary);
+  color: var(--color-primary);
+  background-color: var(--color-black);
+}
+
+.header-nav__item::before {
+  content: '';
+  background-image: url('../../../assets/star.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.header-hamburger {
+  padding: 15px 20px;
+  border-left: var(--border-width-m) solid var(--color-black);
+  line-height: 30px;
+  font-size: 32px;
+}
+
+@media screen and (min-width: 800px) {
+  .header-hamburger {
+    display: none;
+  }
 }

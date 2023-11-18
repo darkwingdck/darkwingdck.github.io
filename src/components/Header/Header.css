@@ -2,9 +2,9 @@
   border-bottom: var(--border-width-m) solid var(--color-black);
   position: sticky;
   top: 0;
-  background-color: var(--color-white);
   display: flex;
   justify-content: space-between;
+  background-color: var(--color-primary);
   font-size: var(--font-size-m);
   font-weight: bold;
   z-index: 1;
