@@ -6,16 +6,27 @@ import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
 import Content from './components/Ui/Content/Content';
 import './App.css';
+import { useRef } from 'react';
 
 function App() {
+  const aboutMeRef = useRef(null);
+  const jobExperienceRef = useRef(null);
+  const projectsRef = useRef(null);
+
   return (
     <div className="app">
-      <Header />
+      <Header aboutMeRef={aboutMeRef} jobExperienceRef={jobExperienceRef} projectsRef={projectsRef} />
       <Hero />
       <Content>
-        <AboutMe />
-        <JobExperience />
-        <Projects />
+        <div ref={aboutMeRef}>
+          <AboutMe />
+        </div>
+        <div ref={jobExperienceRef}>
+          <JobExperience />
+        </div>
+        <div ref={projectsRef}>
+          <Projects />
+        </div>
       </Content>
       <Footer />
     </div>
