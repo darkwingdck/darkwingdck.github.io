@@ -1,17 +1,27 @@
 .footer-container {
   background-color: var(--color-primary);
-  padding: 50px 0;
   background-image:  radial-gradient(var(--color-white) 2px, transparent 2px), radial-gradient(var(--color-white) 2px, var(--color-primary) 2px);
   background-size: 80px 80px;
   background-position: 0 0, 40px 40px;
   background-attachment: fixed;
 }
 
+@media screen and (min-width: 769px) {
+  .footer-container  {
+    flex-direction: row;
+  }
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.footer__text {
-  margin-right: 90px;
+@media screen and (min-width: 769px) {
+  .footer {
+    flex-direction: row;
+    gap: 90px;
+  }
 }
