@@ -1,4 +1,16 @@
 .content {
-  max-width: 900px;
-  margin: auto;
+  padding: 20px;
+}
+
+@media screen and (min-width: 769px) {
+  .content {
+    padding: 40px;
+  } 
+}
+
+@media screen and (min-width: 1025px) {
+  .content {
+    max-width: 900px;
+    margin: auto;
+  } 
 }
