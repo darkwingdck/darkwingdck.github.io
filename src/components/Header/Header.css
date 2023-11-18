@@ -1,5 +1,5 @@
 .header {
-  border-bottom: var(--border-width-m) solid var(--color-black);
+  border-bottom: var(--border-width) solid var(--color-black);
   position: sticky;
   top: 0;
   display: flex;

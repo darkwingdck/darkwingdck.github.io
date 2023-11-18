@@ -27,13 +27,13 @@
   align-items: center;
   padding: 15px 20px;
   transition: ease background-color 0.1s;
-  border-left: var(--border-width-m) solid var(--color-black);
+  border-left: var(--border-width) solid var(--color-black);
   background-color: var(--color-primary);
 }
 
 
 .header-nav__item:last-child {
-  border-bottom: var(--border-width-m) solid var(--color-black);
+  border-bottom: var(--border-width) solid var(--color-black);
 }
 
 @media screen and (min-width: 800px) {
@@ -59,7 +59,7 @@
 
 .header-hamburger {
   padding: 15px 20px;
-  border-left: var(--border-width-m) solid var(--color-black);
+  border-left: var(--border-width) solid var(--color-black);
   line-height: 30px;
   font-size: 32px;
 }

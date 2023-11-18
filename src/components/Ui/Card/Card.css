@@ -1,7 +1,7 @@
 .card {
   font-weight: bold;
   font-size: var(--font-size-s);
-  border: var(--border-width-m) solid var(--color-black);
+  border: var(--border-width) solid var(--color-black);
   min-width: 250px;
   padding: 50px 0px 20px 40px;
   position: relative;
@@ -10,7 +10,7 @@
 }
 
 .card__label {
-  border: var(--border-width-m) solid var(--color-black);
+  border: var(--border-width) solid var(--color-black);
   padding: 10px 20px;
   position: absolute;
   top: -10px;

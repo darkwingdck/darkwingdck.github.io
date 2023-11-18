@@ -1,6 +1,6 @@
 .competitor {
   padding: 20px;
-  border: var(--border-width-m) solid var(--color-secondary);
+  border: var(--border-width) solid var(--color-secondary);
   box-shadow: var(--shadow-tilt-l) var(--shadow-tilt-l) 0 0 var(--color-black);
 }
 

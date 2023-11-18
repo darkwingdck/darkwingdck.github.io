@@ -7,7 +7,7 @@
   font-size: var(--font-size-m);
   font-weight: bold;
   padding: 20px 40px;
-  border: var(--border-width-m) solid var(--color-black);
+  border: var(--border-width) solid var(--color-black);
   max-width: 450px;
   box-shadow: var(--shadow-tilt-l) var(--shadow-tilt-l) 0 0 var(--color-black);
 }

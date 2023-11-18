@@ -13,14 +13,21 @@
   --color-black: #000;
   --color-white: #FFF;
 
-  --border-width-s: 1px;
-  --border-width-m: 2px;
+  --border-width: 1px;
 
   --shadow-tilt-s: 2px;
   --shadow-tilt-m: 4px;
   --shadow-tilt-l: 8px;
   --shadow-tilt-xl: 16px;
   --shadow-tilt-xxl: 20px;
+
+  --width-tablet: 768px;
+}
+
+@media screen and (min-width: 426px) {
+  :root {
+    --border-width: 2px;
+  }
 }
 
 @keyframes slide-up-fade-in {

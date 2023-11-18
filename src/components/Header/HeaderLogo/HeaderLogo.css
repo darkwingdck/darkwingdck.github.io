@@ -1,6 +1,6 @@
 .header-logo {
   padding: 15px 20px;
-  border-right: var(--border-width-m) solid var(--color-black);
+  border-right: var(--border-width) solid var(--color-black);
   transition: background-color 0.1s ease;
   cursor: pointer;
 }
