@@ -1,9 +1,14 @@
 import './Hero.css';
+import HeroPresenter from './HeroPresenter/HeroPresenter';
 
 export default function Hero() {
   return (
     <div className="hero">
-      <h1>Hero</h1>
+      <div className="hero-text">
+        <div className="hero-text__title">Daniil Zakharov</div>
+        <div className="hero-text__subtitle">Front-end dev</div>
+      </div>
+      <HeroPresenter />
     </div>
   );
-}
+};

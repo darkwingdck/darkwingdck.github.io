@@ -1,0 +1,19 @@
+.hero {
+  background-color: var(--color-primary);
+  padding: 100px;
+  display: flex;
+}
+
+.hero-text {
+  font-size: var(--font-size-xxl);
+  margin-right: 40px;
+}
+
+.hero-text__title {
+  font-weight: bold;
+}
+
+.hero-text__subtitle {
+  color: var(--color-white);
+  font-weight: normal;
+}
