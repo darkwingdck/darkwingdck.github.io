@@ -1,7 +1,13 @@
 .competitor {
-  padding: 20px;
+  padding: 15px;
   border: var(--border-width) solid var(--color-secondary);
   box-shadow: var(--shadow-tilt-m) var(--shadow-tilt-m) 0 0 var(--color-black);
+}
+
+@media screen and (min-width: 426px) {
+  .competitor__head {
+    margin-bottom: 20px;
+  }
 }
 
 .competitor__head {
@@ -25,9 +31,15 @@
 }
 
 .competitor-item {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   display: flex;
   align-items: center;
+}
+
+@media screen and (min-width: 426px) {
+  .competitor-item {
+    margin-bottom: 20px;
+  }
 }
 
 .competitor-item__dot {
