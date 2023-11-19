@@ -6,7 +6,7 @@
 
 .competitor__head {
   display: flex;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .competitor__icon {
@@ -19,22 +19,20 @@
   margin-right: 10px;
 }
 
-.competitor-heading__title {
+.competitor__title {
   font-size: var(--font-size-m);
   margin-bottom: 10px;
 }
 
-.competitor__item {
+.competitor-item {
   margin-bottom: 20px;
   display: flex;
+  align-items: center;
 }
 
-.competitor__item::before {
-  content: ' ';
-  display: inline-block;
+.competitor-item__dot {
   margin-right: 20px;
-  width: 20px;
-  height: 20px;
   border-radius: 100%;
-  background-color: var(--color-secondary);
+  font-size: 30px;
+  color: var(--color-secondary);
 }
