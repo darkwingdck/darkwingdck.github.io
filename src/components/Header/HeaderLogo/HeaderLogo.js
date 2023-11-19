@@ -10,7 +10,7 @@ export default function HeaderLogo() {
 
   return (
     <div className="header-logo" onClick={scrollToTop}>
-      DARKWGINDCK
+      DARKWINGDCK
     </div>
   );
 };
