@@ -1,5 +1,6 @@
 .contacts {
   display: flex;
+  gap: 10px;
 }
 
 .contacts_direction-column {

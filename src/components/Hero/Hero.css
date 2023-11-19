@@ -1,6 +1,6 @@
 .hero {
   background-color: var(--color-primary);
-  padding: 30px;
+  padding: 35px 20px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -13,7 +13,6 @@
 
 @media screen and (min-width: 426px) {
   .hero {
-    padding: 40px;
     gap: 50px;
   }
 }
