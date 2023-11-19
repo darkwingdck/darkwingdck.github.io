@@ -12,6 +12,12 @@
   box-shadow: var(--shadow-tilt-m) var(--shadow-tilt-m) 0 0 var(--color-black);
 }
 
+@media screen and (min-width: 426px) {
+  .heading {
+    margin: 100px auto;
+  }
+}
+
 @media screen and (min-width: 769px) {
   .heading {
     padding: 20px 40px;
