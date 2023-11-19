@@ -1,8 +1,14 @@
 .header-logo {
-  padding: 15px 20px;
+  padding: 17px 20px;
   border-right: var(--border-width) solid var(--color-black);
   transition: background-color 0.1s ease;
   cursor: pointer;
+}
+
+@media screen and (min-width: 769px) {
+  .header-logo {
+    padding: 15px 20px;
+  }
 }
 
 .header-logo:hover {

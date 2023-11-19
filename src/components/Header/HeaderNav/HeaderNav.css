@@ -67,6 +67,7 @@
   border-left: var(--border-width) solid var(--color-black);
   line-height: 30px;
   font-size: 32px;
+  font-weight: lighter;
 }
 
 @media screen and (min-width: 769px) {
