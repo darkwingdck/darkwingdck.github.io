@@ -1,3 +1,3 @@
 export const content = {
-  text: 'Tell in short about your design experience: how long are you working as a designer and what kind of projects have you done. Write your professional skills. What is your strong side, why did the companies work with you and why this company should hire you? Tell in short about your design experience: how long are you working as a designer and what kind of projects have you done. Write your professional skills. What is your strong side, why did the companies work with you and why this company should hire you?',
+  text: 'Hi! I\'m Daniil, a web developer with over 2 years of product development experience. I have a background in <b>mathematics</b> from SPbU University. Currently, I\'m working with <b>Nuxt</b> and <b>Ruby on Rails</b>. In addition to front-end development, I\'m also interested in <b>design</b>, <b>artificial intelligence</b>, game development with <b>Unity</b>, and the art of writing <b>clean code</b>.',
 };
