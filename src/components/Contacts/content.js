@@ -18,7 +18,7 @@ export const content = {
     {
       id: 'contact-4',
       name: 'email',
-      link: 'mailto:dzakharov3819@gmail.com',
+      link: 'mailto:darkwingdck0@gmail.com',
     },
   ]
 }

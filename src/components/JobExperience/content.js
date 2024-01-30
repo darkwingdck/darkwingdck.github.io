@@ -11,7 +11,7 @@ export const content = {
       id: 'job-2',
       title: 'Kodland',
       label: 'First job',
-      description: 'While I was a sophomore, I worked part-time as a programming teacher at an <a href="https://www.kodland.org/" target="_blank" class="job__link">online school for children</a>. I taught a group of 10-14 y.o. kids how to program in <b>Lua</b>, so they could create games on the Roblox platform.',
+      description: 'In my second year, I worked part-time as a programming teacher at an <a href="https://www.kodland.org/" target="_blank" class="job__link">online school for children</a>. I taught a group of 10-14 y.o. kids how to program in <b>Lua</b>, so they could create games on the Roblox platform.',
       color: 'accent',
     },
     {
