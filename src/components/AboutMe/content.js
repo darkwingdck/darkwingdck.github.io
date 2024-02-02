@@ -1,3 +1,3 @@
 export const content = {
-  text: 'Hi! I\'m Daniil, a web developer with over 3 years of product development experience. I have a background in <b>mathematics</b> from SPbU University. Currently, I\'m working with <b>Nuxt</b> and <b>Ruby on Rails</b>. In addition to front-end development, I\'m also interested in <b>design</b>, <b>artificial intelligence</b> and game development with <b>Unity</b>.',
+  text: 'Hi! I\'m Daniil, a developer with more than three years of commercial experience. I have studied math and computer science at SPbU University. Now I am a full-time front-end developer working with <b>Nuxt</b> and <b>Ruby on Rails</b>. Besides front end, I also enjoy low-level programming, design, and indie-game development.<br/>I am currently focused on expanding my knowledge in backend development with the goal of becoming a <b>full-stack developer</b>.',
 };
