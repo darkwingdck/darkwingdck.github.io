@@ -18,7 +18,7 @@ export const content = {
       id: 'job-3',
       title: 'Cardplata',
       label: 'First full-time job',
-      description: 'My first full-time job as a front-end developer was at a small outsource company <a href="https://ltkarta.ru/#loaded" target="_blank" class="job__link">"Cardplata"</a>, which developed software for the St. Petersbutg\'s transport system. I built a website for accepting travel ticket applications using <b>VanillaJS</b>, and I also developed a photo processing program using <b>Python Tensorflow</b> (I later remade it with <b>C++ dlib</b>)',
+      description: 'My first full-time job as a developer was at an outsource company <a href="https://ltkarta.ru/#loaded" target="_blank" class="job__link">"Cardplata"</a>, which developed software for the St. Petersbutg\'s transport system. Here I worked with <b>Python</b>, <b>VanillaJS</b>, <b>C++/dlib</b> and even <b>Fortran</b>!',
       color: 'accent-variant',
     },
     {
