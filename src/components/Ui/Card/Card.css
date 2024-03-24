@@ -14,10 +14,12 @@
   top: -10px;
   left: -10px;
   background-color: var(--color-white);
+  color: var(--color-black);
 }
 
 .card_color-primary {
   background-color: var(--color-primary);
+  color: var(--color-white);
 }
 
 .card_color-secondary {
@@ -26,6 +28,7 @@
 
 .card_color-accent {
   background-color: var(--color-accent);
+  color: var(--color-white);
 }
 
 .card_color-accent-variant {

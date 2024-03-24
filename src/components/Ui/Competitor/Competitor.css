@@ -32,8 +32,8 @@
 
 .competitor-item {
   margin-bottom: 15px;
+  line-height: 26px;
   display: flex;
-  align-items: center;
 }
 
 @media screen and (min-width: 426px) {

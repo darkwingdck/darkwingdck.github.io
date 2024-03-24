@@ -44,3 +44,7 @@
 .icon-link__icon_email {
   background-image: url(/src/assets/email.svg);
 }
+
+.icon-link__icon_leetcode {
+  background-image: url(/src/assets/leetcode.svg);
+}
