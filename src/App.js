@@ -24,9 +24,9 @@ function App() {
         <div ref={jobExperienceRef}>
           <JobExperience />
         </div>
-        <div ref={projectsRef}>
+        {/* <div ref={projectsRef}>
           <Projects />
-        </div>
+        </div> */}
       </Content>
       <Footer />
     </div>

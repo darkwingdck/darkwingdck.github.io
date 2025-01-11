@@ -20,7 +20,7 @@ export default function HeaderNav({ aboutMeRef, jobExperienceRef, projectsRef })
       <nav className={`header-nav ${visible ? 'header-nav_opened' : ''}`}>
         <div className="header-nav__item" onClick={() => scrollToRef(aboutMeRef)}>ABOUT ME</div>
         <div className="header-nav__item" onClick={() => scrollToRef(jobExperienceRef)}>WORK</div>
-        <div className="header-nav__item" onClick={() => scrollToRef(projectsRef)}>PROJECTS</div>
+        {/* <div className="header-nav__item" onClick={() => scrollToRef(projectsRef)}>PROJECTS</div> */}
       </nav>
       <div className="header-hamburger" onClick={toggleNav}>
         {visible ? '×' : '≡'}
